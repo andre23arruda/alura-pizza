@@ -1,0 +1,79 @@
+[
+    {
+        "model": "restaurant.dish",
+        "pk": 1,
+        "fields": {
+            "created_at": "2022-06-09",
+            "name": "Pizza 1",
+            "description": "Pizza muito boa",
+            "price": 90.0,
+            "image": "uploads/restaurant/dishes/2022/06/09/pizza-1.jpg"
+        }
+    },
+    {
+        "model": "restaurant.dish",
+        "pk": 2,
+        "fields": {
+            "created_at": "2022-06-09",
+            "name": "Pizza 2",
+            "description": "Pizza deliciosa",
+            "price": 90.0,
+            "image": "uploads/restaurant/dishes/2022/06/09/pizza-2.jpg"
+        }
+    },
+    {
+        "model": "restaurant.dish",
+        "pk": 3,
+        "fields": {
+            "created_at": "2022-06-09",
+            "name": "Pizza 3",
+            "description": "Pizza diferente",
+            "price": 90.0,
+            "image": "uploads/restaurant/dishes/2022/06/09/pizza-3.jpg"
+        }
+    },
+    {
+        "model": "restaurant.dish",
+        "pk": 4,
+        "fields": {
+            "created_at": "2022-06-09",
+            "name": "Pizza 4",
+            "description": "Pizza inexplicável",
+            "price": 90.0,
+            "image": "uploads/restaurant/dishes/2022/06/09/pizza-4.jpg"
+        }
+    },
+    {
+        "model": "restaurant.dish",
+        "pk": 5,
+        "fields": {
+            "created_at": "2022-06-09",
+            "name": "Pizza 5",
+            "description": "Pizza da casa",
+            "price": 90.0,
+            "image": "uploads/restaurant/dishes/2022/06/09/pizza-5.jpg"
+        }
+    },
+    {
+        "model": "restaurant.dish",
+        "pk": 6,
+        "fields": {
+            "created_at": "2022-06-09",
+            "name": "Pizza 6",
+            "description": "Pizza única",
+            "price": 90.0,
+            "image": "uploads/restaurant/dishes/2022/06/09/pizza-6.jpg"
+        }
+    },
+    {
+        "model": "restaurant.dish",
+        "pk": 7,
+        "fields": {
+            "created_at": "2022-06-09",
+            "name": "Pizza 7",
+            "description": "Pizza para todos",
+            "price": 90.0,
+            "image": "uploads/restaurant/dishes/2022/06/09/pizza-7.jpg"
+        }
+    }
+]
