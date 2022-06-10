@@ -25,7 +25,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Cloudinary](https://cloudinary.com/)
 
 ## 💻 Projeto
-**Curso da Alura no qual foi abordado: criação de uma API com Django Rest Framework com deploy no Heroku, site em React com deploy na Vercel. E hospedagem de arquivos no S3 (Eu usei o Cloudinary)**
+**Curso da Alura no qual foi abordado:**
+- Criação de uma API com Django Rest Framework com deploy no Heroku
+- Site em React com deploy na Vercel.
+- E hospedagem de arquivos no S3 __(Eu usei o Cloudinary)__
 
 ## Instalação
 ### Pré requisitos
@@ -43,7 +46,7 @@ git clone https://github.com/andre23arruda/alura-pizza
 
 
 ### Web
-#### No terminal, exeutar
+#### No terminal, executar
 ```sh
 # Entrar na pasta dos arquivos
 cd web
@@ -96,7 +99,7 @@ python qr_code.py
 
 
 ### Web
-#### Agora vamos rodar
+#### Agora vamos rodar o site 😉
 ```sh
 # Entrar na pasta dos arquivos
 cd web
