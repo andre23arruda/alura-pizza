@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Cloudinary](https://cloudinary.com/)
 
 ## 💻 Projeto
-**Curso da Alura no qual foi abordado criação de uma API com Django Rest Framework com deploy no Heroku. Site em React com deploy na Vercel. E hospedagem de arquivos no S3 (Eu usei o Cloudinary) **
+**Curso da Alura no qual foi abordado: criação de uma API com Django Rest Framework com deploy no Heroku, site em React com deploy na Vercel. E hospedagem de arquivos no S3 (Eu usei o Cloudinary)**
 
 ## Instalação
 ### Pré requisitos
