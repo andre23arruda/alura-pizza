@@ -41,8 +41,22 @@ Ter instalado:
 git clone https://github.com/andre23arruda/alura-pizza
 ```
 
+
+### Web
+#### No terminal, exeutar
+```sh
+# Entrar na pasta dos arquivos
+cd web
+
+# Renomear .env_example para .env
+cp .env_example .env
+
+# Instalar os pacotes necessários
+yarn install
+```
+
 ### Backend
-#### No terminal, rodar:
+#### No terminal, executar:
 ```sh
 # Entrar na pasta dos arquivos do backend
 cd backend
@@ -72,26 +86,27 @@ python manage.py loaddata dishes
 # Criar super usuário
 . create_su.sh
 
+# Criar QR Codes
+python qr_code.py
+
 # Rodar backend
 . run.sh
+# Esse comando também vai adicionar seu IP em .env da pasta web
 ```
 
+
 ### Web
-#### No terminal, rodar
+#### Agora vamos rodar
 ```sh
 # Entrar na pasta dos arquivos
 cd web
 
-# Renomear .env_example para .env
-cp .env_example .env
-# ADICIONE OS VALORES CORRETOS
-
-# Instalar os pacotes necessários
-yarn install
-
 # Rodar
 yarn dev
+
+# Ler QR Code -> qr_codes/code-local.png
 ```
+
 
 <div align="center">
     <img alt="Screen 1" title="Screen 1" src=".github/web_1.png?raw=true" width="400px" />
@@ -99,6 +114,11 @@ yarn dev
 <p align="center">Screen 1</p>
 <hr>
 
+<div align="center">
+    <img alt="Acesse" title="Acesse" src="./qr_codes/code-prod.png" width="200px" />
+</div>
+<p align="center">Acesse</p>
+<hr>
 
 
 ## Exemplo

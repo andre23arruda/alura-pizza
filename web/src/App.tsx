@@ -3,9 +3,7 @@ import Dish from 'components/Dish'
 import { DishProps } from 'types/Dishes'
 import styles from './App.module.scss'
 
-const BASE_API_URL = process.env.REACT_APP_API_URL
-const LOCAL = process.env.REACT_APP_LOCAL
-const API_URL  = `http${ LOCAL ? '' : 's'}://${ BASE_API_URL }`
+const API_URL = process.env.REACT_APP_API_URL
 
 export default function App() {
 
