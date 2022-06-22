@@ -110,7 +110,7 @@ yarn dev
 # Ler QR Code -> qr_codes/code-local.png
 ```
 
-
+## Telas
 <div align="center">
     <img alt="Screen 1" title="Screen 1" src=".github/web_1.png?raw=true" width="400px" />
 </div>
