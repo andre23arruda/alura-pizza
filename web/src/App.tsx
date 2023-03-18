@@ -10,7 +10,7 @@ export default function App() {
     const [dishes, setDishes] = useState<DishProps[]>([])
 
     useEffect(() => {
-        fetch(`${ API_URL }/api/dishes/`)
+        fetch(`${ API_URL }/api/restaurant/dishes/`)
         .then(response => response.json())
         .then(data => setDishes(data))
     }, [])
