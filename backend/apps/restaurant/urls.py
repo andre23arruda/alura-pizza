@@ -11,5 +11,5 @@ router = routers.DefaultRouter()
 router.register('dishes', DishesViewSet, basename='Dishes')
 
 urlpatterns = [
-    path('api/', include(router.urls)),
+    path('restaurant/', include(router.urls)),
 ]
